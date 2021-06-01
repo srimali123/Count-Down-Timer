@@ -20,12 +20,19 @@ img{
 
 
 .mobile-container{
-    background-color:#FFFFFF;
+    background-color:rgb(250, 245, 245);
     width:400px;
 }
 header{
+   
     padding: 1rem;
     align-items: center;
     justify-content: center;
     padding: 1rem;
+}
+header input{
+    background-color: rgb(225, 230, 233);
+    border: none;
+    border-radius: 3px;
+    padding: 0.5rem 1rem;
 }
