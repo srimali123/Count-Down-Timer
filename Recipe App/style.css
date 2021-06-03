@@ -22,7 +22,9 @@ img{
 .mobile-container{
     background-color:rgb(250, 245, 245);
     width:400px;
-    box-shadow: 0 0 5px #33333303;
+    box-shadow: 0 0  10px 2px #3333331A;
+    border-radius: 3px;
+    overflow: hidden;
 }
 header{
    
@@ -49,20 +51,30 @@ header button{
 .fav-container{
    text-align: center;
     padding: 1rem;
+    background-color: rgb(221, 195, 217);
 
 }
 .fav-meals {
     display: flex;
     list-style-type:none;
+    overflow: auto;
     padding: 0;
+    flex-wrap: wrap;
 }
 .fav-meals li{
+    width: 75px;
+    margin: 5px;
 
 }
 .fav-meals li img{
+    border: 2px solid #ffffff;
+    box-shadow: 0 0  10px 2px #3333331A;
     border-radius: 50%;
     object-fit: cover;
-    height: 100px;
-    width: 100px;
+    height: 70px;
+    width: 70px;
 
+}
+.fav-meals li span{
+    font-size: 0.9rem;
 }
