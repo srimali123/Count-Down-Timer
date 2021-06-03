@@ -22,6 +22,7 @@ img{
 .mobile-container{
     background-color:rgb(250, 245, 245);
     width:400px;
+    box-shadow: 0 0 5px #33333303;
 }
 header{
    
@@ -35,4 +36,33 @@ header input{
     border: none;
     border-radius: 3px;
     padding: 0.5rem 1rem;
+}
+header button{
+    background-color:transparent;
+    border: none;
+    color: #aaa;
+    font-size: 1.5rem;
+    margin-left: 10px;
+
+}
+
+.fav-container{
+   text-align: center;
+    padding: 1rem;
+
+}
+.fav-meals {
+    display: flex;
+    list-style-type:none;
+    padding: 0;
+}
+.fav-meals li{
+
+}
+.fav-meals li img{
+    border-radius: 50%;
+    object-fit: cover;
+    height: 100px;
+    width: 100px;
+
 }
