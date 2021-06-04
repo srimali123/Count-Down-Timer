@@ -78,3 +78,22 @@ header button{
 .fav-meals li span{
     font-size: 0.9rem;
 }
+
+.meal{
+    border-radius: 3px;
+    box-shadow: 0 0 10px 2px #3333331A;
+    margin: 1.5rem;
+}
+.meal-header{
+    position: relative;
+
+
+}
+
+ .meal-header img{
+
+ }
+
+ .meal-body{
+
+ }
